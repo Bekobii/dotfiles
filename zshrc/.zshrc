@@ -101,4 +101,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias search="fzf --preview='bat --color=always {}'"
 eval "$(starship init zsh)"
