@@ -1,0 +1,21 @@
+theme = "catppuccin_mocha"
+
+[editor]
+mouse = false
+line-number = "relative"
+true-color = true
+bufferline = "always"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+right = ["version-control", "diagnostics", "position", "position-percentage"]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.file-picker]
+hidden = false
