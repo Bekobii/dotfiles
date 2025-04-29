@@ -15,7 +15,7 @@ mode.insert = "INSERT"
 mode.select = "SELECT"
 
 [editor.lsp]
-display-inlay-hints = true
+display-progress-messages = true
 
 [editor.file-picker]
 hidden = false
